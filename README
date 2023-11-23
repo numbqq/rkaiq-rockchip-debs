@@ -1,0 +1,18 @@
+This is a rkaiq plugin for Edge2.
+
+It is based on the following plugins:
+
+camera_engine_rkaiq_rk3588_0.1-5.0x1.3_arm64
+├─usr
+|  ├─local
+|  |   ├─bin
+|  |   |  ├─rkaiq_3A_server             # sync from rockchipSDK/debian/packages/arm64/rkaiq/camera_engine_rkaiq_rk3588_arm64.deb/usr/bin
+|  |   |  └rockchip-isp.sh
+|  ├─lib
+|  |  ├─systemd
+|  |  |    ├─system
+|  |  |    |   └rockchip-isp.service
+|  |  ├─aarch64-linux-gnu               # sync from rockchipSDK/debian/packages/arm64/rkaiq/camera_engine_rkaiq_rk3588_arm64.deb/usr/lib/
+|  ├─include                            # all sync from rockchipSDK/debian/packages/arm64/rkaiq/camera_engine_rkaiq_rk3588_arm64.deb
+├─etc
+|  ├─iqfiles                            # all sync from rockchipSDK/debian/packages/arm64/rkaiq/camera_engine_rkaiq_rk3588_arm64.deb
